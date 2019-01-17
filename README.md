@@ -7,7 +7,7 @@ We have implemented neural network which performs hand gestures recognition for 
 also provides the largest diversity in terms of actions and with the presence of large variations in camera motion, object appearance and pose, object scale, viewpoint, cluttered background. http://crcv.ucf.edu/data/UCF101.php
 Architecture:
 We have developed a neural network model with a multiple, alternate layers of 2D-Convolution and 2D MaxPooling. We have used “relu” as an activation function. Next layers are added sequentially for flattening the data, applying LSTM and then final layer of Softmax.
-  Flow Structure:
+##Flow Structure:
 1.Data segregation into test, train
 2.Extraction of images from Videos (using ffmpeg) 3.Data Cleaning (encode one hot, rescaling) 4.Extraction of frames from images
 5.Training the model
